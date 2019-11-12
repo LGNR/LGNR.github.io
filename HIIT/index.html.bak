@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>HIIT</title>
+    <style>
+		.content {
+  		max-width: 1440px;
+  		margin: auto;
+		}
+	</style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="top"> <img src="Home-Hiit-top.png" usemap="#top" width="1440"
+          height="1494" border="0"> <map name="top">
+          <area shape="rect" coords="1035,35,1193,53" href="http://admin.hiit.io/">
+          <area shape="rect" coords="248,16,381,72" href="#">
+          <area shape="rect" coords="248,434,472,491" href="#">
+        </map>
+      </div>
+      <div class="middle">
+        <div id="root"></div>
+      </div>
+      <div class="bottom"> <img src="Home-Hiit-bottom.png" usemap="#bottom" width="1440"
+          height="396" border="0"> <map name="bottom">
+          <area shape="rect" coords="489,106,621,118" href="#">
+          <area shape="rect" coords="489,131,618,144" href="mailto:contacto@hiit.com">
+          <area shape="rect" coords="488,154,620,166" href="#">
+          <area shape="rect" coords="969,108,1102,118" href="http://admin.hiit.io/">
+          <area shape="rect" coords="960,139,1052,156" href="https://www.facebook.com/stackcodeio/">
+          <area shape="rect" coords="960,164,1035,178" href="https://twitter.com/stackcodeio">
+        </map>
+      </div>
+    </div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin=""></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin=""></script>
+    <script src="calculator.js"></script>
+    
+  </body>
+</html>
