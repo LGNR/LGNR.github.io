@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\begin{document}
+
+\begin{enumerate}
+\item[1.]Demuestra que $R^{3}$ es un espacio vectorial.\\ 
+Prueba: Será necesario verificar los 10 axiomas del EV. Consideramos tres elementos u=(a, b, c), v = (d, e, f), w=(g,h,i) $\in$ $R^{3}$ ; y los escalares $\alpha$ y  $\beta$ $\in$ $R$\\
+1. u+v=(a, b, c)+(d, e, f)=(a+d,b+e,c+f) $\in$ $R^{3}$ \\
+2. u+v=(a, b, c)+(d, e, f)=(a+d,b+e,c+f)=(d+a,e+b,f+c)=(d, e, f)+(a, b, c)\\
+3. u+(v+w)=(a, b, c)+((d, e, f)+(g,h,i))=(a, b, c)+(d+g,e+h,f+i)=(a+d+g, b+e+f, c+f+i)=(a+d, b+e, c+f)+(g,h,i)=(u+v)+w\\
+4. Sea 0 del espacio, entonces u+0=(a,b,c)+(0,0,0)=(a+0,b+0,c+0)=(a,b,c)\\
+5. Sea el inverso aditivo -u, entonces u+(-u)=(a,b,c)+(-a,-b,-c)=(a-a, b-b, c-c)=(0,0,0) que es el 0 del espacio.\\
+6. $\alpha$u=$\alpha$(a,b,c)=($\alpha$a,$\alpha$b,$\alpha$c) $\in R^{3}$\\
+7. $\alpha$(u+v)= $\alpha$((a, b, c)+(d, e, f))=$\alpha$(a+d,b+e,c+f)=($\alpha$(a+d),$\alpha$(b+e),$\alpha$(c+f))\\
+8. ($\alpha +\beta$)u=($\alpha + \beta$)(a, b, c)=($\alpha + \beta$a, $\alpha + \beta$b, $\alpha + \beta$c)\\
+9. $\alpha$($\beta$v)=$\alpha$( $\beta$ (a, b, c))=$\alpha$($\beta$a, $\beta$b, $\beta$c)=($\alpha$ $\beta$a, $\alpha$ $\beta$b, $\alpha$ $\beta$c) = ($\alpha$ $\beta$ (a, b, c))=$\alpha$ $\beta$(a, b, c)=$\alpha$ $\beta$ u\\
+10. 1 u = 1 (a, b, c)= (1a,1b,1c)=(a,b,c)=u\\\\
+\item[b)]Demuestra el Teorema 2. Considerando los vectores v, w, u $\in R^{n} $ y $\alpha \in R$ entonces:\\
+a. $\vec{v} \cdot \vec{0}$=0\\
+$\vec{v} \cdot \vec{0}$= $\sum \vec{v} \vec{0}$= $v_{1}0+v_{2}0+...+v_{n}0$ $\in R$\\
+$=0(v_{1}+...+v_{n})=0$\\
+b. $\vec{v} \cdot \vec{w}$=$\sum \vec{v} \vec{w}$=$v_{1}w_{1}+v_{2}w_{2}+...+v_{n}w_{n}$ $\in R$\\
+=$w_{1}v_{1}+...+w_{n}+v_{n}$=$\sum \vec{w} \vec{v}$=$\vec{w} \cdot \vec{v}$.\\
+c. $\vec{u} \cdot (\vec{v} + \vec{w})$=$\sum \vec{u} \cdot (\vec{v} + \vec{w})$=$\sum u(v_{1}+w_{1}, ..., v_{n}+w_{n})$\\
+$u_{1}(v_{1}+w_{1})+...+u_{n}(n_{n}+w_{2})=u_{1}v_{1}+u_{1}w_{1}+...+u_{n}v_{n}+u_{n}w_{n}= (u_{1}v_{1}+...+u_{n}v_{n})+(u_{1}w_{1}+...+u_{n}w_{n})=\sum \vec{u}  \vec{v} + \sum \vec{u}  \vec{w} = \vec{u} \cdot \vec{v} + \vec{u} \cdot \vec{w}$
+\end{enumerate}
+\end{document}
