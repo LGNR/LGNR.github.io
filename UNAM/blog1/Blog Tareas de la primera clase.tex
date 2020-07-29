@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\begin{document}
+
+
+
+\section*{Teorema 4}
+Demostrar que con dos vectores distintos de cero, se cumple que $\vec{w} \cdot \vec{v} = 0$ si y sólo si son ortogonales
+
+$\Rightarrow$ Si $\vec{w} \cdot \vec{v} = 0$, entonces $\vec{w} \cdot \vec{v} = \| \vec{w} \| \| \vec{v} \| \cos{\theta} = 0$, como los vectores son distintos de cero $\| \vec{w} \| \| \vec{v} \| \neq 0$, entonces $\cos{\theta}=0$, y $\theta=\pi/2 \pm n\pi$, $n\in\mathbb{Z}$ (incluye ángulos negativos), que corresponde a los ángulos que indican la ortogonalidad de los vectores.
+
+$\Leftarrow$ Si son ortogonales el ángulo comprendido entre los vectores es $\theta=\pi/2\pm n\pi$, $n\in\mathbb{Z}$, entonces $\vec{w} \cdot \vec{v} = \| \vec{w} \| \| \vec{v} \| \cos{(\pi/2\pm n\pi)} =0 $
+
+\section*{Ejemplo 8}
+\noindent i) Sean $\vec{w} = (1,0,\sqrt{2})$ y $\vec{v} = (-2,1,\sqrt{2})$, entonces $\vec{w}$ y $\vec{v}$ son ortogonales pues $\vec{w}\cdot \vec{v}= -2+0+2=0$.
+
+ii) Sean $\vec{w} = (1,0,\sqrt{2})$ y $\vec{v} = (-2,1,1)$ entonces el ángulo entre $\vec{w}$ y  $\vec{v}$ es 
+
+$$
+\theta = \arccos{\left(\frac{\vec{v}\cdot\vec{w}}{\| \vec{v} \| \| \vec{w} \|} \right)}
+$$
+
+Entonces es necesario calcular $\vec{v}\cdot\vec{w} = -2 +0 + \sqrt{2}$, y $\|w\|=1+2 = 3$, así como $\|v\|=4+1+1 = 6$, entonces
+
+$$
+\theta = \arccos{\left(\frac{-2 + \sqrt{2}}{6 \cdot 3} \right)} = \arccos{(-1/9+\sqrt{2}/18)} \approx 1.6033457
+$$
+
+iii) Sean $\vec{v} = (1,-1,0)$ y $\vec{w} = (1,1,0)$. Consideremos el problema de encontrar un vector $\vec{u} \in \mathbb{R}^3$ que cumpla con las tres condiciones siguientes
+
+$$ 
+\vec{u} \perp \vec{v}, \; \; \|\vec{u}\|=4, \; \; \angle\vec{u},\vec{w} = \frac{\pi}{3}
+$$
+
+Para resolver el problema, supongamos que $\vec{u} = (x,y,z)$, entonces tenemos que
+
+$$
+\begin{cases}
+\vec{u} \cdot \vec{v} &= 0 \\
+\|\vec{u}\| &= 4 \\
+\vec{u} \cdot \vec{w} &= \| \vec{u} \| \| \vec{w} \| \cos{\frac{\pi}{3}}
+\end{cases}
+\Longrightarrow 
+\begin{cases}
+x-y &= 0 \\
+x^2+y^2+z^2 &= 16 \\
+x+y &= 4 \sqrt{2} \cos{\frac{\pi}{3}}
+\end{cases}
+\Longrightarrow 
+\begin{cases}
+x&= y \\
+2x^2+z^2 &= 16 \\
+x &= 2 \sqrt{2} \cos{\frac{\pi}{3}}
+\end{cases}
+$$
+
+En consecuencia $\boxed{x = 2\sqrt{2} \cos{\frac{\pi}{3}}}$, $\boxed{y =  2\sqrt{2} \cos{\frac{\pi}{3}}}$, y 
+
+\begin{equation}
+\begin{split}
+2x^2+z^2&=16 \\
+2(2\sqrt{2} \cos{\frac{\pi}{3}})^2+z^2&=16 \\
+2(4\cdot2) \cos^2{\frac{\pi}{3}}+z^2&=16 \\
+z^2=16(1-\cos^2{\frac{\pi}{3}}) = 16\sin^2{\frac{\pi}{3}} \\
+\boxed{z = \pm 4 \sin{\frac{\pi}{3}}}
+\end{split}
+\end{equation}
+
+Por lo que 
+
+$$
+\vec{u} = \left(2\sqrt{2} \cos{\frac{\pi}{3}},2\sqrt{2} \cos{\frac{\pi}{3}},\pm 4 \sin{\frac{\pi}{3}}\right)
+$$
+
+\section*{Propiedades del producto vectorial}
+\noindent 1.- $\vec{u}\cdot(\vec{u}\times\vec{v}) = 0$.
+Como el vector $\vec{u}\times\vec{v}$ es perpendicular a $\vec{u}$, entonces el producto $\vec{u}\cdot(\vec{u}\times\vec{v})$ es cero.
+
+2.- $\vec{v}\cdot(\vec{u}\times\vec{v}) = 0$.
+Como el vector $\vec{u}\times\vec{v}$ es perpendicular a $\vec{v}$, entonces el producto $\vec{v}\cdot(\vec{u}\times\vec{v})$ es cero.
+
+3.- $\| \vec{u} \times \vec{v} \|^2 = \|\vec{u}\|^2 \|\vec{u}\|^2 - (\vec{u}\cdot\vec{v})^2$.
+Desarrollamos el lado derecho
+
+\begin{equation}
+\begin{split}
+\|\vec{u}\|^2 \|\vec{u}\|^2 - (\vec{u}\cdot\vec{v})^2 = & \|\vec{u}\|^2 \|\vec{u}\|^2 - \left(\|\vec{u}\| \|\vec{u}\| \cos{\theta}\right)^2 \\
+= & \|\vec{u}\|^2 \|\vec{u}\|^2 (1 - \cos^2{\theta}) \\
+= & \|\vec{u}\|^2 \|\vec{u}\|^2 \sin^2{\theta} \\
+= & \left(\|\vec{u}\| \|\vec{u}\|  \sin{\theta}\right)^2 \\
+= & \| \vec{u} \times \vec{v} \|^2
+\end{split} 
+\end{equation}
+
+7.- $\alpha\left(\vec{u}\times\vec{v}\right)=(\alpha \vec{u}) \times \vec{v} = \vec{u} \times (\alpha \vec{v})$
+
+Desarrollamos el lado izquierdo
+
+\begin{equation}
+\begin{split}
+\alpha\left(\vec{u}\times\vec{v}\right)  & = \alpha\ \|\vec{u}\| \|\vec{v}\| \sin{\theta} \\
+& = \| \alpha \vec{u} \| \|\vec{v}\| \sin{\theta} = \| \vec{u} \| \|\alpha \vec{v}\| \sin{\theta}\\
+& = \boxed{(\alpha \vec{u}) \times \vec{v}} = \boxed{\vec{u} \times (\alpha  \vec{v})}  
+\end{split}
+\end{equation}
+
+9.- $\vec{u} \times \vec{u}=0$. 
+
+$\vec{u} \times \vec{u} = \|\vec{u}\|  \|\vec{u}\| \sin{0} = 0 $, pues es el vector $\vec{u}$ es paralelo consigo mismo.
+
+
+\end{document}
