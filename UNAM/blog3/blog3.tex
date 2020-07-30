@@ -1,0 +1,37 @@
+\documentclass[secnumarabic,balancelastpage,amsmath,amssymb]{article}
+%---------------------------------------ponemos los paquetes.--------------------------------------------%
+
+
+\usepackage{graphicx}      % tools for importing graphics
+\usepackage[utf8]{inputenc} %poner acentos
+\usepackage[spanish]{babel} %titulos y descripciones en español
+\usepackage[margin=2.0cm]{geometry} %modificar margenes del documento
+%cosas raras
+\usepackage{bm}            % special bold-math package. usge: \bm{mathsymbol}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{amssymb}
+\usepackage{lscape}
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+
+
+%---------------------------------------inciamos el documento.--------------------------------------------%
+
+\begin{document}
+
+
+\title{\vspace{-15mm}\textbf{Calculo Diferencial e Integral III}}
+\author{\\ \emph{Universidad Nacional Autónoma de México }}
+
+\section{Proposición 2.}
+\subsection{b) Si A y B son subconjuntos cerrados en $\mathbb {R}^{n}$, entonces $A\cup B$ y $A\cap B$ también lo son.}
+Como $A$ y $B$ son cerrados esto implica que $A^{c}$ y $B^{c}$ son abiertos. Si utilizamos las leyes de De Morgan
+$(A\cup B)^{c}=A^{c}\cap B^{c}$ y considerando que la intersección de dos conjuntos abierto es un conjunto abierto 
+$\Rightarrow$ $(A\cup B)^{c}$ es abierto  $\therefore$   $A\cup B$ es cerrado.   
+
+Por otro lado, dado que $(A\cap B)^{c}=A^{c}\cup B^{c}$ y sabemos que la unión de dos conjuntos abiertos es un conjunto abierto $\Rightarrow$ $(A\cup B)^{c}$ es abierto  $\therefore$  $A\cap B$ es cerrado.   
+\end{document}
+
