@@ -1,0 +1,14 @@
+This is TeX, Version 3.14159265 (TeX Live 2019/dev/Debian) (preloaded format=tex 2019.10.1)  14 AUG 2020 12:56
+**blog5.tex
+(./blog5.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [secnumarabic,balancelastpage,amsmath,amssymb]{article}
+? 
+! Interruption.
+<to be read again> 
+                   [
+l.1 \documentclass[
+                   secnumarabic,balancelastpage,amsmath,amssymb]{article}
+? X
+No pages of output.

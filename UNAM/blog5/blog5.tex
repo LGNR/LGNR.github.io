@@ -1,0 +1,121 @@
+\documentclass[secnumarabic,balancelastpage,amsmath,amssymb]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}      % tools for importing graphics
+\usepackage[utf8]{inputenc} %poner acentos
+\usepackage[spanish]{babel} %titulos y descripciones en español
+\usepackage[margin=2.0cm]{geometry} %modificar margenes del documento
+%cosas raras
+\usepackage{bm}            % special bold-math package. usge: \bm{mathsymbol}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{amssymb}
+\usepackage{lscape}
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+\usepackage{html,makeidx,epsf}
+
+\title{Resumen semana 1}
+
+\begin{document}
+
+\subsection{Clase 1: 27/07/2020}
+
+Un $\textbf{espacio vectorial}$ es un conjunto no vacío V de objetos, llamados vectores, en el que se han definido dos operaciones, la suma y el producto escalar; y que cumple los 10 axiomas a continuación, sean $v, w, u \in V$ y los escalares $\alpha$ y $\beta$ en los reales: \\
+
+1. $u+v \in V$\\
+2. $u+v=v+u$\\
+3. $u+(v+w)=(u+v)+w$\\
+4. Existe el vector nulo $0_{v} \in V$ tal que $v+ 0_{v} =v $\\
+5. Para cada $v$ en $V$ existe un opuesto $(-v) \in$ V tal que $v + (-v) = 0_{v}$\\
+6. $\alpha v \in V $\\
+7. $\alpha (u+v) = \alpha u +\alpha v$\\
+8. $(\alpha +\beta) v = \alpha v + \beta v$\\
+9. $\alpha(\beta v)=(\alpha \beta) v$\\
+10. $1v =v$\\\\
+
+Sea V un espacio vectorial y U un subconjunto de V, entonces U es un $\textbf{subespacio}$ vectorial si cumple las siguientes propiedades:\\
+a) $0_{v} \in V$\\
+b) $ u, v \in V$ entonces $u+v \in V $\\
+c) Sea $\lambda \in $ reales y $v \in V$ entonces $\lambda v \in V$\\\\
+$\textbf{Producto punto}$. \\
+Sean los vectores $\vec{v}=(v_{1}, ..., v_{n})$ $\in R^{n}$ y $\vec{w}=(w_{1}, ..., w_{n})$ $\in R^{n}$. Definimos el producto escalar como: \\
+$\vec{v} \cdot \vec{w} = v_{1} \cdot w_{1} + ... + v_{n} \cdot w_{n} \in R$\\ Y cumple con las propiedades:\\ 
+a) $\vec{v} \cdot \vec{0} = 0$\\
+b) $\vec{v} \cdot \vec{w} = \vec{w} \cdot \vec{v}$ \\
+c) $\vec{u} \cdot (\vec{v}+\vec{w}) = \vec{u} \cdot \vec{v} +\vec{u} \cdot \vec{w}$\\
+d) $(\alpha \vec{v}) \cdot \vec{w} = \alpha (\vec{v}) \cdot \vec{w}) $\\\\
+$\textbf{Norma}$\\
+Define la longitud de un vector desde el punto de vista de la geometría euclideana. \\
+Considere el vector $\vec{v} = (v_{1}, ..., v_{n})$ $\in R^{n}$. La norma de $\vec{v}$ se denota $||\vec{v}||$, y se define de la siguiente manera.\\
+\begin{center}
+$||\vec{v}||$ = $\sqrt{v \cdot v}$
+\end{center} La distancia de A a B se define como d(A, B) = $|| B-A||$. Así mismo se desfine la distancia entre vectores. \
+Propiedades de la norma:\\
+Sean los vectores $\vec{v}, \vec{w}, \in R^{n}$ y $\alpha \in R$:\\
+a) $||\vec{v}|| \geq 0$ y $||\vec{v}|| = 0$ si y sólo si $\vec{v} = 0 $\\
+b) $||\alpha \vec{v} || = |\alpha| ||\vec{v}||$\\
+c) $||\vec{v} - \vec{w} || = ||\vec{w} - \vec{v}||$\\
+d) $||\vec{v} + \vec{w} || \leq ||\vec{v}|| + ||\vec{w}||$ Desigualdad del triángulo. \\
+e) $|\vec{v} \cdot \vec{w}| \leq ||\vec{v}||||\vec{w}||$ Desigualdad de Cauchy-Shwartz. \\
+$\underline{NOTA}$ : Será importante al resolver límites la siguiente propiedad que se usa para la demostración de esta propiedad. \\
+\begin{equation}
+|a||b|=|a\cdot b| \leq \frac{a^{2} + b^{2}}{2}
+\end{equation}
+Segun la $\textbf{ley de cosenos}$ :
+$\vec{v} \cdot \vec{w} = ||\vec{v}||||\vec{w}||cos \theta$ \\
+$\underline{NOTA}$ : El proucto punto tiene un contenido geométrico con la norma y los ángulos. El ángulo cos está acotado por 1. Y además $\textbf{es válido para toda dimensión}$ \\
+Dos vectores son $\textbf{ortogonales}$ si y sólo si $\vec{v} \cdot \vec{w} = 0$ \\
+Dos vectores son $\textbf{paralelos}$ si el ángulo entre ellos es 0 o $\pi$ u=$\lambda$v, con $\lambda \in R$.\\
+El $\textbf{producto vectorial}$ se define como:\\
+$\vec{u} \times \vec{v} = (u_{2} v_{3} - u_{3} v_{2} ) \vec{i} - (u_{1} v_{3} - u_{3} v_{1} ) \vec{j} + (u_{1} v_{2} - u_{2} v_{1} ) \vec{k}  $\\
+El producto vectorial es un vector perpendicular a $\vec{v}$ y $\vec{w}$\\\\
+
+\subsection{Clase 2: 28/07/2020}
+
+Un conjunto es $\textbf{abierto}$ si $\forall x \in V$, $\exists B_{r} (x) \subset V$ .\\ Es $\textbf{cerrado}$ si $\exists x \in V$ tal que $\forall B_{r} (x) \varsubsetneq V$,
+$\forall B_{r} (x) \cap V^{c} \neq \varnothing$. También un conjunto es cerrado si su complemento es abierto.\\
+Un $\textbf{punto es interior}$ sii $\exists B_{r} (x) \subset V$.\\
+Un $\textbf{punto es de adherencia}$ si $\forall B_{r} (x) \cap A \neq \varnothing$\\
+Propiedades. Para todo subconjunto A de $R^{n}$: \\
+a)$A^{\circ} \subset A$ \\
+b)$A \subset \overline{A}$\\
+Sean A, B y V subconjuntos de $R^{n}$, si $A \subset B$ entonces $A^{\circ} \subset B^{\circ}$ y $\overline{A} \subset \overline{B}$\\
+Lema 1. Si $V \subset A$ y V es abierto $V  \subset A$ y V es abierto $V \subset A^{\circ}$ \\
+Si $A \subset F$ y F es cerrado $\overline{A} \subset F$\\
+Propiedades para todo subconjunto A de $R^{n}$ :\\
+a) $A^{\circ}$ es abierto\\
+b) $\overline{A}$ es cerrado\\
+c) A es abierto si y sólo si $A=A^{\circ}$\\
+d) A es cerrado si y sólo si $A=\overline{A}$\\
+e) $A^{\circ} \cup B^{\circ} \subset (A\cup B)^{\circ}$\\
+$\underline{NOTA}$: Leyes de Morgan (A$\cup B)^{c} = A^{c} \cap B^{c}$ y $(A\cap B)^{c} = A^{c} \cup B^{c}$. 
+\\\\\subsection{Clase 3: 29/07/2020}
+
+Cualquier función $R^{n} x R^{n} \rightarrow R$ tal que para cualesquiera $x, y, z \in R^{n}$, satisface las condiciones:\\
+$d(x, y) \geq 0$ y $d(x, x)=0$\\
+$d(x, y) =d(y, x)$\\
+$d(x, y) \leq d(x, z) + d(z, y)$\\
+$d(x, y) = 0$ implica que $x=y$\\
+Se llama $\textbf{métrica o distancia}$ en $R^{n}$. \\
+Sea p un punto en $R^{n}$. Definimos la $\textbf{bola abierta}$ con centro en p y radio $r>0$ como el conjunto:\\ $B_{r} (p) = \lbrace r \in R^{n} : d(x, p) <r \rbrace$.\\ Y la $\textbf{bola cerrada}$ con centro en p y radio $r>0$ como el conjunto: $B_{r} (p) = \lbrace x \in R^{n} : d(x, p)\leq r \rbrace$\\
+Proposición 1. Toda bola abierta $B_{r} (p)$ en $R^{n}$ es un conjunto abierto. \\
+Proposición 2. \\
+a) Si A y B son subconjuntos abiertos en $R^{n}$ entonces $A\cup B$ y $A \cap B$ lo son. \\
+B) Si A y B son subconjuntos cerrados en $R^{n}$, entonces $A\cup B$ y $A\cap B$ lo son. \\\\
+\subsection{Clase 4: 30/07/2020}\\
+Proposición 4. Sean A un subconjunto de $R^{n}$, entonces:\\
+a) A es abierto si y sólo si $A = A^{\circ}$.\\
+b) A es cerrado si y sólo si $A = \overline{A}$.\\
+Proposición 5. Sean A y B subconjuntos de $R^{n}$, entonces:\\
+$A^{\circ} \cup B^{\circ} \subset (A \cup B)^{\circ}$\\
+$A^{\circ} \cap B^{\circ} = (A \cap B)^{\circ}$\\
+$\overline{A} \cup \overline{B }=\overline {A} \cup \overline{B}$\\
+$ \overline {A \cap B} \subset \overline{A} \cap \overline{B}$\\
+Sea A un subconjunto de $R^{n}$. Definimos la $\textbf{frontera}$ de A por el conjunto
+$\overline{A} \cap \overline{A ^{c}}$, y la denotamos por Fr (A).
+
+\end{document}
+
+

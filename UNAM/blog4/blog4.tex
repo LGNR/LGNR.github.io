@@ -16,7 +16,7 @@
 \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
 \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
 \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
-
+\usepackage{html,makeidx,epsf}
 
 
 %---------------------------------------inciamos el documento.--------------------------------------------%
@@ -28,52 +28,57 @@
 \author{\\ \emph{Universidad Nacional Autónoma de México }}
 
 \section{Proposición 8.}
-\subsection*{Sea A y B subconjuntos cerrados de $\mathbb {R}^{n}$, entonces.}
-\subsection*{b) $A^{\mathrm{o}} \cap B^{\mathrm{o}} =  (A \cap B)^{\mathrm{o}}$ }
+Sea A y B subconjuntos cerrados de $\mathbb {R}^{n}$, entonces.
+b) $A^{\mathrm{o}} \cap B^{\mathrm{o}} =  (A \cap B)^{\mathrm{o}}$ 
 
-\noindent 1.- $A^{\mathrm{o}} \cap B^{\mathrm{o}} \subseteq (A \cap B)^{\mathrm{o}} $ \begin{equation}
-\begin{split}
+\noindent 1.- $A^{\mathrm{o}} \cap B^{\mathrm{o}} \subseteq (A \cap B)^{\mathrm{o}} $
+
+
+\begin{equation}
+\begin{aligned}
 x \in (A^{\mathrm{o}} \cap B^{\mathrm{o}}) &\Rightarrow   (x \in A^{\mathrm{o}}) \land  (x \in B^{\mathrm{o}}) \Rightarrow (\exists B_r(x) \subset A) \land (\exists B_r(x) \subset B) \Rightarrow \exists B_r(x) \subset (A\cap B) \\
 & \Rightarrow x \in (A \cap B)^{\mathrm{o}} \\
 & \therefore A^{\mathrm{o}} \cap B^{\mathrm{o}} \subseteq (A \cap B)^{\mathrm{o}}
-\end{split}
+\end{aligned}
 \end{equation}
+
+
 2.- $ (A \cap B)^{\mathrm{o}} \subseteq A^{\mathrm{o}} \cap B^{\mathrm{o}} $
 
 \begin{equation}
-\begin{split}
+\begin{aligned}
 x \in (A \cap B)^{\mathrm{o}} & \Rightarrow \exists B_r(x) \subset (A \cap B) \Rightarrow (\exists B_r(x) \subset A) \land (\exists B_r(x) \subset B) \Rightarrow (x \in A^{\mathrm{o}})\land(x \in B^{\mathrm{o}}) \\
 & \Rightarrow x\in (A \cap B)^{\mathrm{o}} \\
 & \therefore  (A \cap B)^{\mathrm{o}} \subseteq A^{\mathrm{o}} \cap B^{\mathrm{o}}
-\end{split}
+\end{aligned}
 \end{equation}
 
 $\therefore  A^{\mathrm{o}} \cap B^{\mathrm{o}} =  (A \cap B)^{\mathrm{o}}$
-\subsection*{c) $\overline{A} \cup \overline{B} = \overline{A \cup B}$ }
+c) $\overline{A} \cup \overline{B} = \overline{A \cup B}$ 
 
 1.- $\overline{A} \cup \overline{B} \subseteq \overline{A \cup B}$
 \begin{equation}
-\begin{split}
+\begin{aligned}
 x \in  (\overline{A} \cup \overline{B} ) &\Rightarrow (x \in \overline{A}) \lor (x \in \overline{B}) \Rightarrow (\forall B_r(x), B_r(x) \cap A \neq \emptyset) \lor (\forall B_r(x), B_r(x) \cap B \neq \emptyset) \\
 & \Rightarrow (\forall B_r(x), B_r(x) \cap (A \cup B) \neq \emptyset) \Rightarrow x \in (\overline{A \cup B}) \\
 & \therefore \overline{A} \cup \overline{B} \subseteq \overline{A \cup B}
-\end{split}
+\end{aligned}
 \end{equation}
 
 2.- $\overline{A \cup B}  \subseteq \overline{A} \cup \overline{B} $
 \begin{equation}
-\begin{split}
+\begin{aligned}
 x \in (\overline{A \cup B}) & \Rightarrow \forall B_r(x), B_r(x) \cap (A \cup B) \neq \emptyset \Rightarrow  (\forall B_r(x), B_r(x) \cap A \neq \emptyset)  \cup (\forall B_r(x), B_r(x) \cap B \neq \emptyset) \\
 & \Rightarrow(\forall B_r(x), B_r(x) \cap A \neq \emptyset) \lor (\forall B_r(x), B_r(x) \cap B \neq \emptyset) \\
 & \Rightarrow (x \in \overline{A}) \lor (x \in \overline{B}) \Rightarrow x \in (\overline{A} \cup \overline{B}) \\
 & \therefore \overline{A \cup B}  \subseteq \overline{A} \cup \overline{B}
-\end{split}
+\end{aligned}
 \end{equation}
 
 $\therefore \overline{A} \cup \overline{B} = \overline{A \cup B}$
 
-\subsection*{d)
-$\overline{A \cap B}\subset \overline{A} \cap \overline{B}$}
+
+$\overline{A \cap B}\subset \overline{A} \cap \overline{B}$
 Por la proposición 3 inciso b) sabemos que 
 $A\subset\overline{A}$ y $B\subset\overline{B}$ por lo que $A\cap B\subset\overline{A} \cap \overline{B}$ y dado que $\overline{A} \cap \overline{B}$ es cerrado $\Rightarrow$ $\overline{A \cap B}\subset \overline{A} \cap \overline{B}$.
 Si consideramos $A=(0,1)$ y $B=(1,2)$ $\Rightarrow$ $\overline{A \cap B}=\emptyset$ pero $\overline{A}=[0,1]$ y $\overline{B}=[1,2]$ $\Rightarrow$ $\overline{A} \cap \overline{B}={1}$. 
