@@ -1,0 +1,66 @@
+\documentclass[amsmath,amssymb]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}      % tools for importing graphics
+\usepackage[utf8]{inputenc} %poner acentos
+\usepackage[spanish]{babel} %titulos y descripciones en español
+\usepackage[margin=2.0cm]{geometry} %modificar margenes del documento
+%cosas raras
+\usepackage{bm}            % special bold-math package. usge: \bm{mathsymbol}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{amssymb}
+\usepackage{slashed}
+
+
+%\usepackage{html,makeidx,epsf}
+
+\title{Resumen semana 3}
+
+\begin{document}
+
+\subsection{Clase 15: 14/08/2020}
+
+\noindent $\bullet$ Sea la función $f(x,y) = x^2+y^2$
+Veamos si el $\displaystyle{\lim_{\vec{x} \to\vec{0}}}f(x,y) = 0$ existe. \\
+Sea $\epsilon > 0$, si existe un $\delta>0$, tal que $\lvert \lvert \vec{x} - \vec{0} \rvert \rvert< \delta \implies \lvert f(x,y) - (0) \rvert < \epsilon$, entonces el límite existe.\\
+$$\lvert \lvert \vec{x} - \vec{0} \rvert \rvert=\lvert \lvert \vec{x}  \rvert \rvert=\sqrt{x^2+y^2}<\delta$$
+Si elegimos a $\delta = \sqrt{\epsilon}$, $$\sqrt{x^2+y^2}<\delta=\sqrt{\epsilon} \implies \lvert x^2+y^2 \rvert = \lvert f(x,y) - 0 \rvert < \epsilon$$
+\underline{NOTA}: Si elegimos una función definida por partes tal que f(0,0) = 1, no funciona el límite, y no es continua.\\ 
+
+\noindent$\bullet$ Como en los límites de una variable, es posible evitarse indeterminaciones mediante cancelaciones y manipulaciones algebraicas
+$$ \lim_{\vec{x} \to\vec{0}} \frac{x^2 y}{x^2+x^4}= \lim_{\vec{x} \to\vec{0}} \frac{\slashed{x^2} y}{(\slashed{x^2})(1+x^2)}=\frac{0}{1+0}=0$$
+
+\noindent $\bullet$ Si por medio de dos caminos en la función no coinciden los límites, entonces el límite no existe.
+
+\begin{enumerate}
+    \item Ejes, $x=0$ $y=0$
+    \item Identidad, $x=y$
+    \item Recta, $y=mx$
+    \item Parábola, $y=mx^2$
+\end{enumerate}
+
+\noindent $\bullet$ Funciones de la clase (insertar Geogebra)
+
+%<iframe src="https://www.geogebra.org/classic/fkssa2wj?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
+%<iframe src="https://www.geogebra.org/classic/urks4edt?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+
+\noindent $\bullet$ Se evalúan varios caminos para la función $f(x,y)=\frac{x^2}{x^4+y^2}$ \\
+1. Ejes \\
+$$\lim_{(0,y) \to (0,0)} f(x,y)=\lim_{y \to 0}\frac{0}{0+y^2}=0$$
+$$\lim_{(x,0) \to (0,0)} f(x,y)=\lim_{x \to 0} \frac{x^2}{x^4+0}= \lim_{x \to 0} \frac{1}{x^2} = \infty$$
+2. Identidad \\
+$$\lim_{(x,x) \to (0,0)} f(x,y)=\lim_{x \to 0}\frac{x^2}{x^4+x^2}=\lim_{x \to 0}\frac{1}{x^2+1}=1$$
+3. Recta \\
+$$\lim_{(x,mx) \to (0,0)} f(x,y)=\lim_{x \to 0}\frac{x^2}{x^4+(mx)^2}=\lim_{x \to 0}\frac{1}{x^2+m}=\frac{1}{m} $$
+4. Parábola \\
+$$\lim_{(x,mx^2) \to (0,0)} f(x,y)=\lim_{x \to 0}\frac{x^2}{x^4+(mx^2)^2}=\lim_{x \to 0}\frac{1}{x^2(1+m^2)}=\infty $$
+
+$$\lim_{(0,y) \to (0,0)} f(x,y) \neq \lim_{(x,0) \to (0,0)} f(x,y) \neq \lim_{(x,x) \to (0,0)} f(x,y) \neq \lim_{(x,mx) \to (0,0)} f(x,y) $$
+Entonces no existe el límite.\\
+\noindent $\bullet$ Las rectas en general son intersecciones de dos planos. La recta perpendicular a dos rectas con ecuaciones\\ $L_1=\{\vec{x}\in \mathbb{R}^3\ : \vec{x}=\vec{u}t+\vec{a}\}$ y $L_2=\{\vec{x}\in \mathbb{R}^3\ : \vec{x}=\vec{v}t+\vec{b}\}$, es aquella con vector de dirección $\vec{w}=\vec{u} \times \vec{v}$.
+\end{document}
+
+
+
+
