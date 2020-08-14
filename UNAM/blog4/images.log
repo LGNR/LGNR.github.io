@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.1)  14 AUG 2020 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.10.1)  14 AUG 2020 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,20 +485,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 156.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-:tex2html_wrap_inline254:lthtmlCropMarkHeight:=12.88889pt
+:tex2html_wrap_inline262:lthtmlCropMarkHeight:=12.88889pt
 
-:tex2html_wrap_inline254:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+:tex2html_wrap_inline262:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
 Preview: Tightpage -32891 -32891 32891 32891
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-:tex2html_wrap_inline256:lthtmlCropMarkHeight:=13.5pt
+:tex2html_wrap_inline264:lthtmlCropMarkHeight:=13.5pt
 
-:tex2html_wrap_inline256:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+:tex2html_wrap_inline264:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
 [2]
 
-:tex2html_wrap_inline258:lthtmlCropMarkHeight:=13.5pt
+:tex2html_wrap_inline266:lthtmlCropMarkHeight:=13.5pt
 
-:tex2html_wrap_inline258:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+:tex2html_wrap_inline266:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
 [3]
 
 ! Package amsmath Error: \begin{aligned} allowed only in math mode.
@@ -545,14 +545,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-:displaymath260:lthtmlCropMarkHeight:=29.5pt
+:displaymath268:lthtmlCropMarkHeight:=29.5pt
 
-:displaymath260:lthtmlCropMarkDepth:=18.5pt:1ex:=4.30554pt
+:displaymath268:lthtmlCropMarkDepth:=18.5pt:1ex:=4.30554pt
 [4]
 
-:tex2html_wrap_inline262:lthtmlCropMarkHeight:=13.5pt
+:tex2html_wrap_inline270:lthtmlCropMarkHeight:=13.5pt
 
-:tex2html_wrap_inline262:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+:tex2html_wrap_inline270:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
 [5]
 
 ! Package amsmath Error: \begin{aligned} allowed only in math mode.
@@ -599,24 +599,24 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-:displaymath264:lthtmlCropMarkHeight:=29.5pt
+:displaymath272:lthtmlCropMarkHeight:=29.5pt
 
-:displaymath264:lthtmlCropMarkDepth:=18.5pt:1ex:=4.30554pt
+:displaymath272:lthtmlCropMarkDepth:=18.5pt:1ex:=4.30554pt
 [6]
 
-:tex2html_wrap_inline266:lthtmlCropMarkHeight:=13.5pt
+:tex2html_wrap_inline274:lthtmlCropMarkHeight:=13.5pt
 
-:tex2html_wrap_inline266:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+:tex2html_wrap_inline274:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
 [7]
 
-:tex2html_wrap_inline268:lthtmlCropMarkHeight:=14.8332pt
+:tex2html_wrap_inline276:lthtmlCropMarkHeight:=14.8332pt
 
-:tex2html_wrap_inline268:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+:tex2html_wrap_inline276:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
 [8]
 
-:tex2html_wrap_inline270:lthtmlCropMarkHeight:=14.8332pt
+:tex2html_wrap_inline278:lthtmlCropMarkHeight:=14.8332pt
 
-:tex2html_wrap_inline270:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+:tex2html_wrap_inline278:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
 [9]
 
 ! Package amsmath Error: \begin{aligned} allowed only in math mode.
@@ -663,14 +663,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-:displaymath272:lthtmlCropMarkHeight:=31.14987pt
+:displaymath280:lthtmlCropMarkHeight:=31.14987pt
 
-:displaymath272:lthtmlCropMarkDepth:=20.14986pt:1ex:=4.30554pt
+:displaymath280:lthtmlCropMarkDepth:=20.14986pt:1ex:=4.30554pt
 [10]
 
-:tex2html_wrap_inline274:lthtmlCropMarkHeight:=14.8332pt
+:tex2html_wrap_inline282:lthtmlCropMarkHeight:=14.8332pt
 
-:tex2html_wrap_inline274:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
+:tex2html_wrap_inline282:lthtmlCropMarkDepth:=1.35971pt:1ex:=4.30554pt
 [11]
 
 ! Package amsmath Error: \begin{aligned} allowed only in math mode.
@@ -717,74 +717,74 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-:displaymath276:lthtmlCropMarkHeight:=38.64987pt
+:displaymath284:lthtmlCropMarkHeight:=38.64987pt
 
-:displaymath276:lthtmlCropMarkDepth:=27.64986pt:1ex:=4.30554pt
+:displaymath284:lthtmlCropMarkDepth:=27.64986pt:1ex:=4.30554pt
 [12]
-
-:tex2html_wrap_inline278:lthtmlCropMarkHeight:=14.8332pt
-
-:tex2html_wrap_inline278:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
-[13]
-
-:tex2html_wrap_inline280:lthtmlCropMarkHeight:=14.8332pt
-
-:tex2html_wrap_inline280:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
-[14]
-
-:tex2html_wrap_inline282:lthtmlCropMarkHeight:=14.8332pt
-
-:tex2html_wrap_inline282:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
-[15]
-
-:tex2html_wrap_inline284:lthtmlCropMarkHeight:=14.8332pt
-
-:tex2html_wrap_inline284:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
-[16]
 
 :tex2html_wrap_inline286:lthtmlCropMarkHeight:=14.8332pt
 
-:tex2html_wrap_inline286:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
-[17]
+:tex2html_wrap_inline286:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+[13]
 
 :tex2html_wrap_inline288:lthtmlCropMarkHeight:=14.8332pt
 
-:tex2html_wrap_inline288:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+:tex2html_wrap_inline288:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[14]
+
+:tex2html_wrap_inline290:lthtmlCropMarkHeight:=14.8332pt
+
+:tex2html_wrap_inline290:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[15]
+
+:tex2html_wrap_inline292:lthtmlCropMarkHeight:=14.8332pt
+
+:tex2html_wrap_inline292:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[16]
+
+:tex2html_wrap_inline294:lthtmlCropMarkHeight:=14.8332pt
+
+:tex2html_wrap_inline294:lthtmlCropMarkDepth:=0.39098pt:1ex:=4.30554pt
+[17]
+
+:tex2html_wrap_inline296:lthtmlCropMarkHeight:=14.8332pt
+
+:tex2html_wrap_inline296:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
 [18]
 
-:tex2html_wrap_inline290:lthtmlCropMarkHeight:=9.66875pt
+:tex2html_wrap_inline298:lthtmlCropMarkHeight:=9.66875pt
 
-:tex2html_wrap_inline290:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+:tex2html_wrap_inline298:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
 [19]
 
-:tex2html_wrap_inline294:lthtmlCropMarkHeight:=13.5pt
-
-:tex2html_wrap_inline294:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
-[20]
-
-:tex2html_wrap_inline296:lthtmlCropMarkHeight:=13.5pt
-
-:tex2html_wrap_inline296:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
-[21]
-
-:tex2html_wrap_inline300:lthtmlCropMarkHeight:=14.8332pt
-
-:tex2html_wrap_inline300:lthtmlCropMarkDepth:=0.55554pt:1ex:=4.30554pt
-[22]
-
-:tex2html_wrap_inline302:lthtmlCropMarkHeight:=14.8332pt
+:tex2html_wrap_inline302:lthtmlCropMarkHeight:=13.5pt
 
 :tex2html_wrap_inline302:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
-[23]
+[20]
 
-:tex2html_wrap_inline304:lthtmlCropMarkHeight:=14.8332pt
+:tex2html_wrap_inline304:lthtmlCropMarkHeight:=13.5pt
 
 :tex2html_wrap_inline304:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
-[24]
+[21]
 
 :tex2html_wrap_inline308:lthtmlCropMarkHeight:=14.8332pt
 
-:tex2html_wrap_inline308:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
+:tex2html_wrap_inline308:lthtmlCropMarkDepth:=0.55554pt:1ex:=4.30554pt
+[22]
+
+:tex2html_wrap_inline310:lthtmlCropMarkHeight:=14.8332pt
+
+:tex2html_wrap_inline310:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[23]
+
+:tex2html_wrap_inline312:lthtmlCropMarkHeight:=14.8332pt
+
+:tex2html_wrap_inline312:lthtmlCropMarkDepth:=2.5pt:1ex:=4.30554pt
+[24]
+
+:tex2html_wrap_inline316:lthtmlCropMarkHeight:=14.8332pt
+
+:tex2html_wrap_inline316:lthtmlCropMarkDepth:=0.0pt:1ex:=4.30554pt
 [25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
