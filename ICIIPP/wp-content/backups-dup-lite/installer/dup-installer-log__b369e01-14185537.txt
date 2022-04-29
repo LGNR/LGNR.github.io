@@ -1,0 +1,416 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 10:24:04
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.25                                |7.4.25
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-03-14 18:55:37
+WP VERSION__________: 5.9.2
+DUP VERSION_________: 1.4.4
+DB__________________: 10.5.12
+DB TABLES___________: 13
+DB ROWS_____________: 911
+DB FILE SIZE________: 3.98MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.25 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.51 (Debian)
+DOC ROOT____________: "/home/lgnr/www/html/ICIIPP-Public"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/ICIIPP-Public/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/lgnr/www/html/ICIIPP-Public/20220314_iciipp_[HASH]_20220314185537_archive.zip"
+SIZE________________: 109.41MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/home/lgnr/www/html/ICIIPP-Public/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/home/lgnr/www/html/ICIIPP-Public/20220314_iciipp_[HASH]_20220314185537_archive.zip' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/home/lgnr/www/html/ICIIPP-Public/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/home/lgnr/www/html/ICIIPP-Public/installer.php' failed
+
+STEP-1 COMPLETE @ 10:24:06 - RUNTIME: 2.4054 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:24:31
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.5.12 -- Build Server: 10.5.12
+FILE SIZE:	dup-database__[HASH].sql (1.99MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/lgnr/www/html/ICIIPP-Public/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	126
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (169)
+wp_postmeta: (622)
+wp_posts: (127)
+wp_term_relationships: (16)
+wp_term_taxonomy: (7)
+wp_termmeta: (0)
+wp_terms: (7)
+wp_usermeta: (24)
+wp_users: (1)
+Removed '30' cache/transient rows
+
+INSERT DATA RUNTIME: 7.2926 sec.
+STEP-2 COMPLETE @ 10:24:39 - RUNTIME: 7.3080 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:25:24
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Iglesia Cristiana Internacional e Interdenominacional &quot;Príncipe de Paz&quot;"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/lgnr/www/html/ICIIPP-2"
+path_new______________: "/home/lgnr/www/html/ICIIPP-Public"
+siteurl_______________: "http://localhost/ICIIPP-Public"
+url_old_______________: "http://localhost/ICIIPP-2"
+url_new_______________: "http://localhost/ICIIPP-Public"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "lgnr.archive@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   169][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   622][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   127][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/lgnr/www/html/ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  2:"\/home\/lgnr\/www\/html\/ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  3:"%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  4:"\home\lgnr\www\html\ICIIPP-2" ====================> "/home/lgnr/www/html/ICIIPP-Public"
+	SEARCH  5:"\\home\\lgnr\\www\\html\\ICIIPP-2" ===============> "\/home\/lgnr\/www\/html\/ICIIPP-Public"
+	SEARCH  6:"%5Chome%5Clgnr%5Cwww%5Chtml%5CICIIPP-2" ==========> "%2Fhome%2Flgnr%2Fwww%2Fhtml%2FICIIPP-Public"
+	SEARCH  7:"//localhost/ICIIPP-2" ============================> "//localhost/ICIIPP-Public"
+	SEARCH  8:"\/\/localhost\/ICIIPP-2" =========================> "\/\/localhost\/ICIIPP-Public"
+	SEARCH  9:"%2F%2Flocalhost%2FICIIPP-2" ======================> "%2F%2Flocalhost%2FICIIPP-Public"
+	SEARCH 10:"https://localhost/ICIIPP-Public" =================> "http://localhost/ICIIPP-Public"
+	SEARCH 11:"https:\/\/localhost\/ICIIPP-Public" ==============> "http:\/\/localhost\/ICIIPP-Public"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FICIIPP-Public" =========> "http%3A%2F%2Flocalhost%2FICIIPP-Public"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:974 	|	 Cells:6324 
+UPDATED:	Tables:2 	|	 Rows:14 	|	 Cells:14 
+ERRORS:		0 
+RUNTIME:	0.139800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+ - Username 'lgnr' already exists in the database.  Unable to create new account.
+
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost/ICIIPP-Public"
+	UPDATE WP_SITEURL "http://localhost/ICIIPP-Public"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:25:24 - RUNTIME: 0.2379 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] New admin user create error
+	SECTIONS: general
+	LONG MSG: 
+NEW WP-ADMIN USER:
+ - Username 'lgnr' already exists in the database.  Unable to create new account.
+
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

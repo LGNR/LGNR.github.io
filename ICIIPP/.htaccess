@@ -1,0 +1,13 @@
+#This Apache config file was created by Duplicator Installer on 2022-03-15 22:25:24.
+#The original can be found in archived file with the name .htaccess__[HASH]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /ICIIPP-Public/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /ICIIPP-Public/index.php [L]
+</IfModule>
+# END WordPress

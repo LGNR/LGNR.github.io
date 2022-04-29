@@ -1,0 +1,1 @@
+ UPDATE wp_options SET option_value="http://localhost/ICIIPP/" WHERE option_name="siteurl";
